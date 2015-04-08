@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @fundraiser.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @fundraiser.last_name %>
+</p>
+
+<p>
+  <strong>Goal amount:</strong>
+  <%= @fundraiser.goal_amount %>
+</p>
+
+<p>
+  <strong>Current amount:</strong>
+  <%= @fundraiser.current_amount %>
+</p>
+
+<%= link_to 'Edit', edit_fundraiser_path(@fundraiser) %> |
+<%= link_to 'Back', fundraisers_path %>
