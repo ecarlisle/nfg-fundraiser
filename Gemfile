@@ -8,4 +8,6 @@ group :assets do
 	gem 'uglifier', '>= 1.3.0'
 end
 
+gem 'therubyracer'  # If using Ruby
 gem 'jquery-rails'
+gem 'less-rails-bootstrap'
