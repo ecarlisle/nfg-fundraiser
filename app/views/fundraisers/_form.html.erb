@@ -21,11 +21,11 @@
   </div>
   <div class="field">
     <%= f.label :goal_amount %><br>
-    <%= f.number_field :goal_amount %>
+    <%= f.number_field :goal_amount, :step => 0.01 %>
   </div>
   <div class="field">
     <%= f.label :current_amount %><br>
-    <%= f.number_field :current_amount %>
+    <%= f.number_field :current_amount, :step => 0.01 %>
   </div>
   <div class="actions">
     <%= f.submit %>

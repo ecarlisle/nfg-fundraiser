@@ -8,6 +8,7 @@ class FundraisersController < ApplicationController
 
   # GET /fundraisers/1
   def show
+    @fundraiser = Fundraiser.find(params[:id])
   end
 
   # GET /fundraisers/new
