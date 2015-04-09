@@ -1,7 +1,7 @@
 figure img {
 	border: solid 4px green;
 	margin: 0 auto;
-	padding: 0;
+	padding: 3px;
 
 }
 
@@ -17,4 +17,9 @@ figcaption {
 .container {
 	margin-top: 5rem;
 }
+
+.thumbnail {
+	border: none;
+}
+
 

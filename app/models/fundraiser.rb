@@ -9,6 +9,6 @@ class Fundraiser < ActiveRecord::Base
 	end
 
 	def image_file
-		("/assets/" + [first_name, last_name].join('_') + ".jpg").downcase
+		([first_name, last_name].join('_') + ".jpg").downcase
 	end
 end
