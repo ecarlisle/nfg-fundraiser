@@ -3,8 +3,8 @@ class CreateFundraisers < ActiveRecord::Migration
     create_table :fundraisers do |t|
       t.string :first_name
       t.string :last_name
-      t.integer :goal_amount
-      t.integer :current_amount
+      t.decimal :goal_amount
+      t.decimal :current_amount
 
       t.timestamps null: false
     end

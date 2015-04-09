@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 20150408195024) do
   create_table "fundraisers", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
-    t.integer  "goal_amount"
-    t.integer  "current_amount"
+    t.decimal  "goal_amount"
+    t.decimal  "current_amount"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
