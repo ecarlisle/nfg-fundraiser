@@ -1,4 +1,7 @@
 %figure.col-xs-6.col-sm-4.col-md-3.col-lg-2
 	.thumbnail{:data_percent => fundraiser.percent_to_goal}
 		= image_tag fundraiser.image_file, :class => "img-circle img-responsive", :alt => fundraiser.full_name
-	%figcaption= fundraiser.full_name
+	%figcaption
+		%div= fundraiser.full_name
+		%div= fundraiser.percent_to_goal.to_s + "%"
+

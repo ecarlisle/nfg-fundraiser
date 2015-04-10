@@ -5,7 +5,7 @@ class Fundraiser < ActiveRecord::Base
 	end
 
 	def percent_to_goal
-		(current_amount/goal_amount).round()
+		((current_amount/goal_amount)*100).round
 	end
 
 	def image_file
