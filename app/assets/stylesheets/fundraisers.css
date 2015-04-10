@@ -1,8 +1,9 @@
 figure img {
+	position: relative;
 	border: solid 4px green;
-	margin: 0 auto;
-	padding: 3px;
-
+	z-index: 101;
+	margin: 0;
+	padding: 2px;
 }
 
 figure, figcaption {
@@ -19,7 +20,8 @@ figcaption {
 }
 
 .thumbnail {
+	position: relative; 
 	border: none;
+	padding: 0;
 }
-
 
